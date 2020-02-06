@@ -1,0 +1,10 @@
+{
+	"inputFiles": ["./src/index.ts"],
+	"mode": "modules",
+	"out": "doc",
+	"exclude": ["**/*.test.ts"],
+	"theme": "minimal",
+	"name": "Packteer",
+	"readme": "none",
+	"ignoreCompilerErrors": true
+}
