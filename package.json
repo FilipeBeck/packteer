@@ -11,9 +11,10 @@
   "license": "MIT",
   "private": false,
   "scripts": {
+    "clear": "rm -rf ./app",
     "test": "jest --coverage",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
-    "build": "tsc && cp package.json README.md app",
+    "build": "yarn clear && tsc && cp package.json README.md app",
     "doc": "typedoc --options typedoc.json"
   },
   "dependencies": {
