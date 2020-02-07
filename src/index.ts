@@ -78,10 +78,7 @@ export default async function pack(page: Page, entry: string | string[] | Dictio
 			]
 		},
 		resolve: {
-			extensions: ['.js', '.ts'],
-			alias: {
-				'tslib': require.resolve('tslib')
-			}
+			extensions: ['.js', '.ts']
 		},
 		output: {
 			library: '[name]',
